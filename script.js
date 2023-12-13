@@ -7,7 +7,7 @@ for (let index = 2; index <=num; index++) {
 	a=b;
 	b=c;
 }
-	return c;
+	return b;
 	
 }
 
