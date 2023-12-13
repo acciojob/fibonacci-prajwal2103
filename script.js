@@ -5,7 +5,7 @@ function fibonacci(num) {
 	if(num==0){
 		return a;
 	}
-for (let index = 2; index <=num; index++) {
+for (let index = 3; index <=num; index++) {
 	 c=a+b;
 	a=b;
 	b=c;
@@ -14,4 +14,4 @@ for (let index = 2; index <=num; index++) {
 	
 }
 
-module.exports = fibonacci(num);
+module.exports = fibonacci;
