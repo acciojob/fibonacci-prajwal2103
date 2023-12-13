@@ -14,4 +14,4 @@ for (let index = 2; index <=num; index++) {
 	
 }
 
-module.exports = fibonacci;
+module.exports = fibonacci(num);
